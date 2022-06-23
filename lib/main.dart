@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:football_jersey_store/presentation/wrapper/wrapper_page.dart';
 
 void main() {
   runApp(
-    MaterialApp(
+    const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        body: Container(),
-      ),
+      home: WrapperPage(pageIndex: 1),
     )
   );
 }
